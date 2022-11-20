@@ -1,0 +1,25 @@
+.nav-container {
+    background-color: rgba(20, 31, 49, 0.7);
+    padding: 1rem;
+}
+
+.logo {
+    transition: 300ms ease-in-out;
+    margin: .5rem;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.item {
+    margin: .5rem;
+    font-size: 1.3rem;
+    color: rgb(203, 208, 216);
+    --bs-nav-link-hover-color: rgb(203, 208, 216);
+}
+
+.item:hover {
+    color: rgb(211, 172, 43);
+}
+
