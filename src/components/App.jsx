@@ -8,7 +8,7 @@ const App = () => {
     <>
     <Navbar/>
 
-    <ItemListContainer greeting={"Este será el contenedor de productos"}/>
+    <ItemListContainer/>
     </>
   );
 }

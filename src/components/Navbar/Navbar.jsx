@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg nav-container">
       <div className="container">
         <button className="btn navbar-brand" href="#">
-          <img className="logo" src="./logo.png" alt="Isla de Marea, Tienda de artefactos exóticos" width={224} />
+          <img className="logo" src="./img/logo.png" alt="Isla de Marea, Tienda de artefactos exóticos" width={224} />
         </button>
 
         <div className="d-flex justify-content-around">

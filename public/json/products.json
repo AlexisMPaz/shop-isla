@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "categorie": "armadura",
+        "name": "El Domo de Bronce",
+        "type": "Armadura Corporal",
+        "price": 15000,
+        "stock": 20,
+        "img": "domo.png"
+    },
+    {
+        "id": 2,
+        "categorie": "armadura",
+        "name": "La Torre de Marfil",
+        "type": "Armadura Corporal",
+        "price": 30000,
+        "stock": 20,
+        "img": "torre.png"
+    },
+    {
+        "id": 3,
+        "categorie": "armadura",
+        "name": "Fomento de Yriel",
+        "type": "Armadura Corporal",
+        "price": 50000,
+        "stock": 20,
+        "img": "yriel.png"
+    },
+    {
+        "id": 4,
+        "categorie": "armadura",
+        "name": "La Devoción de Devoto",
+        "type": "Casco",
+        "price": 5000,
+        "stock": 20,
+        "img": "devoto.png"
+    },
+    {
+        "id": 5,
+        "categorie": "armadura",
+        "name": "Bandada de Saqawal",
+        "type": "Casco",
+        "price": 9000,
+        "stock": 20,
+        "img": "saqawal.png"
+    },
+    {
+        "id": 6,
+        "categorie": "armadura",
+        "name": "Máscara del tribunal",
+        "type": "Casco",
+        "price": 12000,
+        "stock": 20,
+        "img": "tribunal.png"
+    },
+    {
+        "id": 7,
+        "categorie": "armadura",
+        "name": "Hemofilia",
+        "type": "Guantes",
+        "price": 3000,
+        "stock": 20,
+        "img": "hemofilia.png"
+    },
+    {
+        "id": 8,
+        "categorie": "armadura",
+        "name": "Puño Sepulcral",
+        "type": "Guantes",
+        "price": 5000,
+        "stock": 20,
+        "img": "sepulcral.png"
+    },
+    {
+        "id": 9,
+        "categorie": "armadura",
+        "name": "Mandato de la Fosa",
+        "type": "Guantes",
+        "price": 8500,
+        "stock": 20,
+        "img": "mandato.png"
+    },
+    {
+        "id": 10,
+        "categorie": "arma",
+        "name": "Oni-Goroshi",
+        "type": "Espada",
+        "price": 20000,
+        "stock": 20,
+        "img": "oni.png"
+    },
+    {
+        "id": 11,
+        "categorie": "arma",
+        "name": "El Sacrificio de Oro",
+        "type": "Espada",
+        "price": 25000,
+        "stock": 20,
+        "img": "oro.png"
+    },
+    {
+        "id": 12,
+        "categorie": "arma",
+        "name": "El Gladius de Scaeva",
+        "type": "Espada",
+        "price": 30000,
+        "stock": 20,
+        "img": "domo.png"
+    },
+    {
+        "id": 13,
+        "categorie": "arma",
+        "name": "Llama de Ngamahu",
+        "type": "Hacha",
+        "price": 25000,
+        "stock": 20,
+        "img": "ngamahu.png"
+    },
+    {
+        "id": 14,
+        "categorie": "arma",
+        "name": "Música Fúnebre de Debeon",
+        "type": "Hacha",
+        "price": 18000,
+        "stock": 20,
+        "img": "debeon.png"
+    },
+    {
+        "id": 15,
+        "categorie": "arma",
+        "name": "Sed de Sangre de Hezmana",
+        "type": "Hacha",
+        "price": 22000,
+        "stock": 20,
+        "img": "hezmana.png"
+    },
+    {
+        "id": 16,
+        "categorie": "arma",
+        "name": "Mjölner",
+        "type": "Maza",
+        "price": 60000,
+        "stock": 20,
+        "img": "mjolner.png"
+    },
+    {
+        "id": 17,
+        "categorie": "arma",
+        "name": "Destructor de Marea",
+        "type": "Maza",
+        "price": 35000,
+        "stock": 20,
+        "img": "marea.png"
+    },
+    {
+        "id": 18,
+        "categorie": "arma",
+        "name": "Devanador de Cerebros",
+        "type": "Maza",
+        "price": 16000,
+        "stock": 20,
+        "img": "devorador.png"
+    },
+    {
+        "id": 19,
+        "categorie": "accesorio",
+        "name": "Círculo de Angustia",
+        "type": "Anillo",
+        "price": 8500,
+        "stock": 20,
+        "img": "angustia.png"
+    },
+    {
+        "id": 20,
+        "categorie": "accesorio",
+        "name": "Praxis",
+        "type": "Anillo",
+        "price": 14000,
+        "stock": 20,
+        "img": "praxis.png"
+    },
+    {
+        "id": 21,
+        "categorie": "accesorio",
+        "name": "Apuesta de Ventor",
+        "type": "Anillo",
+        "price": 40000,
+        "stock": 20,
+        "img": "ventor.png"
+    },
+    {
+        "id": 22,
+        "categorie": "accesorio",
+        "name": "Cazador de cabezas",
+        "type": "Cinturón",
+        "price": 10000,
+        "stock": 20,
+        "img": "cazador.png"
+    },
+    {
+        "id": 23,
+        "categorie": "accesorio",
+        "name": "Sangre de mago",
+        "type": "Cinturón",
+        "price": 16000,
+        "stock": 20,
+        "img": "mago.png"
+    },
+    {
+        "id": 24,
+        "categorie": "accesorio",
+        "name": "Atadura de Alma",
+        "type": "Cinturón",
+        "price": 20000,
+        "stock": 20,
+        "img": "atadura.png"
+    },
+    {
+        "id": 25,
+        "categorie": "accesorio",
+        "name": "Rebelión de Aul",
+        "type": "Amuleto",
+        "price": 3000,
+        "stock": 20,
+        "img": "aul.png"
+    },
+    {
+        "id": 26,
+        "categorie": "accesorio",
+        "name": "Astramentis",
+        "type": "Amuleto",
+        "price": 5000,
+        "stock": 20,
+        "img": "astramentis.png"
+    },
+    {
+        "id": 27,
+        "categorie": "accesorio",
+        "name": "Impresencia",
+        "type": "Amuleto",
+        "price": 20000,
+        "stock": 20,
+        "img": "impresencia.png"
+    }
+]

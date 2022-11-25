@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background: url(../public/backgroundBody.webp) no-repeat center center fixed;
+    background: url(../public/img/backgroundBody.webp) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

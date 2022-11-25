@@ -1,7 +1,7 @@
 
 const Categories = () => {
     return (
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li className="nav-item">
                 <button className="btn nav-link item" href="#">Armas</button>
             </li>
