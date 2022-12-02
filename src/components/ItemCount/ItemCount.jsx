@@ -1,10 +1,10 @@
 import {useState} from "react";
 
-const ItemCount = () => {
+const ItemCount = ({stock}) => {
     const [number, setNumber] = useState(1);
 
     const add = () => {
-        if (number <10)
+        if (number < stock)
         setNumber(number + 1);
     }
 
@@ -14,12 +14,12 @@ const ItemCount = () => {
     }
 
     return (
-        <>
-            <button className="btn btn-dark" onClick={() => subtract()}>-</button>
+        <div className="mt-4 mb-4">
+            <button className="me-3 btn btn-warning" onClick={() => subtract()}>-</button>
             {number}
-            <button className="btn btn-dark" onClick={() => add()}>+</button>
-            <button className="btn btn-light">Agregar al Carrito</button>
-        </>
+            <button className="ms-3 btn btn-warning" onClick={() => add()}>+</button>
+            <button className="ms-4 btn btn-warning">Agregar al Carrito</button>
+        </div>
     );
 }
 

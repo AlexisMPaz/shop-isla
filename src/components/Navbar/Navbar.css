@@ -12,14 +12,15 @@
     transform: scale(1.1);
 }
 
-.item {
+.link {
     margin: .5rem;
-    font-size: 1.3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
     color: rgb(203, 208, 216);
     --bs-nav-link-hover-color: rgb(211, 172, 43);
 }
 
-.item:hover {
+.link:hover {
     color: rgb(211, 172, 43);
 }
 

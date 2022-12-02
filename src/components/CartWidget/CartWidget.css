@@ -1,10 +1,8 @@
 
 .cart {
-    color:rgb(203, 208, 216);
     transition: 300ms ease-in-out;
 }
 
 .cart:hover {
-    color: rgb(211, 172, 43);
     transform: scale(1.4);
 }

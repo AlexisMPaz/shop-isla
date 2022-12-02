@@ -1,5 +1,5 @@
-const consultBDD = async () => {
-   const response = await fetch("./json/products.json");
+const consultBDD = async (route) => {
+   const response = await fetch(route);
    const products = await response.json();
    return products;
 }

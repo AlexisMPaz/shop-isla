@@ -1,0 +1,22 @@
+.mainContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgb(43, 51, 68);
+}
+
+.itemName {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    color: azure;
+}
+
+.itemType {
+    color: #fcf75e;
+    font-size: 1.2rem;
+}
+
+.itemInfo {
+    font-size: 1.4rem;
+}

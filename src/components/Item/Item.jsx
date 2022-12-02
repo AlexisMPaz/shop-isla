@@ -1,4 +1,5 @@
 import "./Item.css"
+import { Link } from "react-router-dom";
 const Item = ({ item }) => {
 
     console.log(item);
@@ -12,10 +13,10 @@ const Item = ({ item }) => {
                     </div>
                     <div className="col-8">
                         <div className="card-body">
-                            <h5 className="card-title">{item.name}</h5>
-                            <p className="card-text">*{item.type}*</p>
-                            <p className="card-text">{item.price} X <img src={"../img/coin.png"} alt="" /></p>
-                            <button className="btn btn-warning">Ver Producto</button>
+                            <h5 className="card-title itemName">{item.name}</h5>
+                            <p className="card-text itemType">{item.type}</p>
+                            <p className="card-text">{new Intl.NumberFormat('de-DE').format(item.price)} X <img src={"../img/coin.png"} alt="" /></p>
+                            <button className="btn btn-warning"><Link className="nav-link" to={`/artefacto/${item.id}`}>Ver Artefacto</Link></button>
                         </div>
                     </div>
                 </div>
