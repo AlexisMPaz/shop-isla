@@ -1,11 +1,8 @@
-import "./Item.css"
 import { Link } from "react-router-dom";
 const Item = ({ item }) => {
 
-    console.log(item);
-
     return (
-        <div className="col-12 col-md-6 artifactContainer">
+        <div className="col-12 col-md-6">
             <div className="card border-light mb-3 container artifactCard" >
                 <div className="row">
                     <div className="col-4 d-flex align-items-center justify-content-center">

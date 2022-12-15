@@ -1,10 +1,4 @@
-.mainContainer {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-radius: 15px;
-    background-color: rgb(43, 51, 68);
-}
+/* Global Style */
 
 .itemName {
     font-family: "Merriweather", serif;
@@ -20,3 +14,87 @@
 .itemInfo {
     font-size: 1.4rem;
 }
+
+.greetingTitle {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    color: azure;
+}
+
+.greetingText {
+    font-size: 1.3rem;
+}
+
+.logo {
+    transition: 300ms ease-in-out;
+    margin: .5rem;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    margin: .5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(203, 208, 216);
+    --bs-nav-link-hover-color: rgb(211, 172, 43);
+}
+
+.link:hover {
+    color: rgb(211, 172, 43);
+}
+
+.artifactCard {
+    background-color: rgba(20, 31, 49, 0.7);
+}
+
+/* Default Style */
+
+.mainContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(43, 51, 68, 1);
+}
+
+
+.navContainer {
+    background-color: rgba(20, 31, 49, 0.7);
+    padding: 1rem;
+}
+
+/* Chaos Style */
+
+.chaosMode {
+    background-color: black;
+    background: url(../../public/img/chaos.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.mainContainerChaos {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(67, 0, 0, 1);;
+}
+
+.navContainerChaos {
+    background-color: rgba(67, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+

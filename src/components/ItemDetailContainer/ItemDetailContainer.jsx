@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import "./ItemDetailContainer.css";
 import consultBDD from "../../assets/functions";
 import ItemDetail from "../ItemDetail/ItemDetail";
 

@@ -1,12 +1,17 @@
-import "./Navbar.css";
 import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import Categories from "./Categories/Categories";
+import ButtonDarkMode from "./ButtonDarkMode/ButtonDarkMode";
+
+import { useChaosModeContext } from "../../context/ChaosModeContext";
 
 
 const Navbar = () => {
+
+  const {chaosMode} = useChaosModeContext();
+
   return (
-    <nav className="navbar navbar-expand-lg nav-container">
+    <nav className={`navbar navbar-expand-lg ${chaosMode ? 'navContainerChaos' : 'navContainer'}`}>
       <div className="container">
         <button className="btn navbar-brand" href="#">
           <Link to="/"><img className="logo" src="../img/logo.png" alt="Isla de Marea, Tienda de artefactos exóticos" width={224} /></Link>
@@ -17,6 +22,7 @@ const Navbar = () => {
         </div>
 
         <CartWidget />
+        <ButtonDarkMode />
       </div>
     </nav>
   );

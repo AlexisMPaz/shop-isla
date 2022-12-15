@@ -1,35 +1,26 @@
 import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Router Dom
+import { BrowserRouter } from "react-router-dom";
+
+// Context
+import { ChaosModeProvider } from "../context/ChaosModeContext";
 
 // Components
 import Navbar from "./Navbar/Navbar"
-import ItemListContainer from "./ItemListContainer/ItemListContainer";
-import ItemDetailContainer from "./ItemDetailContainer/ItemDetailContainer";
-import Welcome from "./Welcome/Welcome";
-import Cart from "./Cart/Cart";
+import Main from "./Main/Main";
 
 const App = () => {
 
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <ChaosModeProvider>
 
-        <Routes>
-          <Route path="/" element={<Welcome/>}/>
-        </Routes>
+          <Navbar />
+          <Main />
 
-        <main className="container mainContainer">
-          <Routes>
-            <Route path="/" element={<ItemListContainer />} />
-            <Route path="/artefacto/:id" element={<ItemDetailContainer />} />
-            <Route path="/categoria/:category" element={<ItemListContainer />} />
-            <Route path="/carrito" element={<Cart/>}/>
-          </Routes>
-        </main>
-
-
+        </ChaosModeProvider>
       </BrowserRouter>
 
     </>
