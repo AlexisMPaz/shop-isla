@@ -35,13 +35,11 @@ const ItemListContainer = () => {
 
     return (
         <>  
-
-            <Greeting/>
+            <Greeting inCategory={category}/>
 
             <div className={`${chaosMode ? 'mainContainerChaos' : 'mainContainer'}`}>
                 {product}
             </div>
-
         </>
 
     )

@@ -2,13 +2,13 @@ import { useContext, createContext, useState } from "react";
 
 const CartContext = createContext();
 
-export const useCartContext = () => useCartContext(CartContext);
+export const useCartContext = () => useContext(CartContext);
 
 export const CartProvider = (props) => {
     const [cart, setCart] = useState([]);
 
     const isInCart = (id) => {
-        return cart.find(product = product.id === id)
+        return cart.find(product => product.id === id)
     };
 
     const addItem = (product, amount) => {
@@ -44,7 +44,7 @@ export const CartProvider = (props) => {
     }
 
     return (
-        <CartContext.Provider value={{cart, isInCart, addItem, removeItem, getItemQuantity, totalPrice}}>
+        <CartContext.Provider value={{cart, isInCart, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
             {props.children}
         </CartContext.Provider>
     )

@@ -1,14 +1,11 @@
-import { useParams } from "react-router-dom";
 
 import { useChaosModeContext } from "../../context/ChaosModeContext";
 
-const Greeting = () => {
+const Greeting = ({inCategory}) => {
 
     const {chaosMode} = useChaosModeContext();
 
-    const { category } = useParams();
-
-    if (!category) {
+    if (!inCategory) {
         return (
             <div className={`container ${chaosMode ? 'mainContainerChaos' : 'mainContainer'}`}>
                 <h1 className="greetingTitle text-center mb-4">Bienvenido Exiliado!</h1>
