@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background: url(../public/img/backgroundBody.webp) no-repeat center center fixed;
+    background: url(https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/backgroundBody.webp?alt=media&token=13d32001-c3b4-4ef2-a2c1-e1571a0a758e) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

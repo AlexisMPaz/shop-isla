@@ -7,7 +7,7 @@
         "info": "El caparazón de la tortuga se convierte un día en su tumba.",
         "price": 15000,
         "stock": 20,
-        "img": "domo.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fdomo.png?alt=media&token=e6cc3809-c58e-4e4d-b18b-fa700f483398"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "info": "La mente es un filtro a través del cual la anarquía se convierte en orden.",
         "price": 30000,
         "stock": 20,
-        "img": "torre.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Ftorre.png?alt=media&token=1efcc5a6-fa38-47df-9e02-c555e95be687"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "info": "Alimenta a una bestia y no cazará. Protégelo y no luchará. La ferocidad debe aprenderse, no enseñarse. Es el sufrimiento lo que forja a los más grandes guerreros.",
         "price": 50000,
         "stock": 20,
-        "img": "yriel.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fyriel.png?alt=media&token=7bc74c4a-ce69-4b14-9154-ef46f452aa0f"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "info": "Rápidas como el pensamiento son las acciones del individuo cuando se llevan las alas de la divina providencia.",
         "price": 5000,
         "stock": 20,
-        "img": "devoto.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fdevoto.png?alt=media&token=24b644f2-d8e2-4765-a968-2b48dcf4a9fc"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "info": "Aunque somos individuos, compartimos la misma situación. El Primero del Cielo nos enseña que la unidad y el desinterés, no la división y la codicia, es lo que nos llevará hacia arriba.",
         "price": 9000,
         "stock": 20,
-        "img": "saqawal.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fsaqawal.png?alt=media&token=98d5484d-f3a8-4b2b-a94d-5202cd24b26c"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "info": "El juez determina la dignidad en comparación con la pauta, él mismo.",
         "price": 12000,
         "stock": 20,
-        "img": "tribunal.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Ftribunal.png?alt=media&token=76096251-2991-44d9-a338-6a9db0cc516a"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "info": "Un maestro artista se toma su tiempo cuando pinta. Desafortunadamente, mi especie no suele tener ese lujo",
         "price": 3000,
         "stock": 20,
-        "img": "hemofilia.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fhemofilia.png?alt=media&token=d71dafbc-e286-4ea8-af59-1dc47e150986"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "info": "¿Alguna vez vio a un hombre aplastar el cráneo de otro hombre? Es difícil sentir esperanza después de eso.",
         "price": 5000,
         "stock": 20,
-        "img": "sepulcral.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fsepulcral.png?alt=media&token=5144afeb-1fab-4c2a-9b0d-2d656f054f65"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "info": "Solo servimos a la Noche.",
         "price": 8500,
         "stock": 20,
-        "img": "mandato.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fmandato.png?alt=media&token=5ea0ac36-613a-4d66-84ca-f84e7f60bbc3"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "info": "Siempre lo mismo, Charan. Y aún... me bañarás, y beberás mi amor. Hasta que no puedas más.",
         "price": 20000,
         "stock": 20,
-        "img": "oni.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Foni.png?alt=media&token=0affcf4f-7727-4505-923a-c1c82992fdd7"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "info": "Entrégate a las llamas y tu nombre arderá en la mente de los hombres para siempre.",
         "price": 25000,
         "stock": 20,
-        "img": "oro.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Foro.png?alt=media&token=e53ee476-a895-4c5f-a402-1f59fb50bb25"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "info": "Incluso desde las últimas filas, el silbido del acero era fascinante. Observaron la danza en el polvo de la arena, silenciosos como los muertos. Un hechizo solo roto por el derramamiento de sangre.",
         "price": 30000,
         "stock": 20,
-        "img": "scaeva.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fscaeva.png?alt=media&token=ca5d292c-a9f9-4e09-b65e-44438c588c4f"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "info": "Los salvajes Karui afirman que el arma fue forjada por su dios del fuego. Me inclino bastante a creerles",
         "price": 25000,
         "stock": 20,
-        "img": "ngamahu.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fngamahu.png?alt=media&token=9a064ac0-d35c-4617-80a8-251596b96a68"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "info": "Un latido agudo y pesado, discordante, desafinado, cuando lo escuchas en el viento, sabes que la muerte te seguirá pronto.",
         "price": 18000,
         "stock": 20,
-        "img": "debeon.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fdebeon.png?alt=media&token=4192480e-29f9-4a7c-bf53-c6d2f8a7f764"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
         "info": "Cuando un antojo no se puede saciar, cualquier fuente servirá.",
         "price": 22000,
         "stock": 20,
-        "img": "hezmana.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fhezmana.png?alt=media&token=f41735f2-fadb-4d2f-93ea-2035da6a3262"
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
         "info": "Mira la tormenta a los ojos y tendrás su respeto.",
         "price": 60000,
         "stock": 20,
-        "img": "mjolner.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fmjolner.png?alt=media&token=fbf73534-01b5-46a1-9a1f-cc3200841e2a"
     },
     {
         "id": 17,
@@ -167,7 +167,7 @@
         "info": "El mar golpea la roca sin descanso. Ya sea en un día o en diez mil años, eventualmente la roca se derrumbará, y el dominio del Rey de las aguas saladas crecerá.",
         "price": 35000,
         "stock": 20,
-        "img": "marea.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fmarea.png?alt=media&token=b5bd9b79-dafb-45ba-bb6e-74700d75d517"
     },
     {
         "id": 18,
@@ -177,7 +177,7 @@
         "info": "Puede que la mente no tenga límites, pero el cráneo sí.",
         "price": 16000,
         "stock": 20,
-        "img": "devorador.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fdevorador.png?alt=media&token=c24fb80b-7f53-4157-a47f-0593c29f5e98"
     },
     {
         "id": 19,
@@ -187,7 +187,7 @@
         "info": "Condené a un hombre inocente a las piras, pero admitir este error es condenarme a mí mismo. Mi única opción es esforzarme más.",
         "price": 8500,
         "stock": 20,
-        "img": "angustia.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fangustia.png?alt=media&token=c5e1b143-9243-44ae-8b44-b8b480ad31aa"
     },
     {
         "id": 20,
@@ -197,7 +197,7 @@
         "info": "Los maestros taumatúrgicos del Imperio Eterno, tan impredecibles y variados como eran, todos entendieron una cosa: El pensamiento libre conduce a la acción libre.",
         "price": 14000,
         "stock": 20,
-        "img": "praxis.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fpraxis.png?alt=media&token=835c3a0d-3fcf-45ef-bd0e-8fdef04a50ce"
     },
     {
         "id": 21,
@@ -207,7 +207,7 @@
         "info": "En un resplandor de gloria, una anomalía que desafía todas las probabilidades, la bestia imposible de matar se encontró con lo divino Y Ventor conoció su último trofeo.",
         "price": 40000,
         "stock": 20,
-        "img": "ventor.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fventor.png?alt=media&token=0b16d5a8-b00f-46f2-9ce9-15ab67011c83"
     },
     {
         "id": 22,
@@ -217,7 +217,7 @@
         "info": "El alma de un hombre gobierna desde una caverna de hueso, aprende y juzga a través de ventanas nacidas de la carne. El corazón es carne. La cabeza es donde está el Hombre.",
         "price": 10000,
         "stock": 20,
-        "img": "cazador.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fcazador.png?alt=media&token=f1d3ff45-9da4-417c-9390-3b3045f437c1"
     },
     {
         "id": 23,
@@ -227,7 +227,7 @@
         "info": "Ríos de poder corren por tus venas.",
         "price": 16000,
         "stock": 20,
-        "img": "mago.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fmago.png?alt=media&token=14fb57d3-4aac-4259-b999-a0905d64823a"
     },
     {
         "id": 24,
@@ -237,7 +237,7 @@
         "info": "Los sacerdotes vaal estaban entre los primeros intelectuales registrados. Fueron ellos quienes descubrieron que un alma recién liberada se aferra desesperadamente a cualquier otra fuente de vida.",
         "price": 20000,
         "stock": 20,
-        "img": "atadura.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fatadura.png?alt=media&token=cf4d5fec-22aa-46c2-9e1c-c292fb10ccbd"
     },
     {
         "id": 25,
@@ -247,7 +247,7 @@
         "info": "No fue su valentía o ferocidad, ni su genio táctico, fue su liderazgo lo que le valió a Aul, el último rey, su corona.",
         "price": 3000,
         "stock": 20,
-        "img": "aul.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Faul.png?alt=media&token=7c16e398-244d-4213-a449-74f07ffa5a93"
     },
     {
         "id": 26,
@@ -257,7 +257,7 @@
         "info": "La ira sin sentido sacudirá el mundo, las mentiras astutas lo doblará, la prisa imprudente lo romperá y en la oscuridad será enviado",
         "price": 5000,
         "stock": 20,
-        "img": "astramentis.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fastramentis.png?alt=media&token=aba288d7-8581-4470-ab0f-c5fd51a0ecc4"
     },
     {
         "id": 27,
@@ -267,6 +267,6 @@
         "info": "Aunque su cuerpo estaba encerrado en piedra, su esencia vagó el infinito, aprendiendo y preparándose.",
         "price": 20000,
         "stock": 20,
-        "img": "impresencia.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/artifacts%2Fimpresencia.png?alt=media&token=dc11348b-5f5c-488a-bc88-6e8e0d761778"
     }
 ]

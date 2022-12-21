@@ -29,15 +29,15 @@ const Cart = () => {
                             <div className="card border-light p-3 mt-5 mb-5 container artifactCard" >
                                 <div className="row">
                                     <div className="col-4 d-flex align-items-center justify-content-center">
-                                        <img src={`../img/artifacts/${prod.img}`} className="img-fluid" alt="..." />
+                                        <img src={prod.img} className="img-fluid" alt="..." />
                                     </div>
                                     <div className="col-8">
                                         <div className="card-body">
                                             <h3 className="card-title itemName">{prod.name}</h3>
                                             <p className="card-text itemType">{prod.type}</p>
                                             <p className="card-text">Cantidad: {prod.amt}</p>
-                                            <p className="card-text">Precio Unitario: {new Intl.NumberFormat('de-DE').format(prod.price)} X <img src={"../img/coin.png"} alt="" /></p>
-                                            <p className="card-text">Precio Total: {new Intl.NumberFormat('de-DE').format(prod.price * prod.amt)} X <img src={"../img/coin.png"} alt="" /></p>
+                                            <p className="card-text">Precio Unitario: {new Intl.NumberFormat('de-DE').format(prod.price)} X <img src={"https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/coin.png?alt=media&token=2c8573b0-f81f-4bb2-98a6-2e61e7e9418b"} alt="" /></p>
+                                            <p className="card-text">Precio Total: {new Intl.NumberFormat('de-DE').format(prod.price * prod.amt)} X <img src={"https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/coin.png?alt=media&token=2c8573b0-f81f-4bb2-98a6-2e61e7e9418b"} alt="" /></p>
                                             <button className="btn btn-danger" onClick={() => removeItem(prod.id)}>Eliminar Producto</button>
                                         </div>
                                     </div>

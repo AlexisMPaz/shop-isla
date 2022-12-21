@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
 import consultBDD from "../../assets/functions.js";
 import Greeting from "../Greeting/Greeting";
+import { loadDataBase } from "../../assets/firebase";
 
 import { useChaosModeContext } from "../../context/ChaosModeContext";
 
@@ -29,6 +30,7 @@ const ItemListContainer = () => {
             })
         }
 
+        // loadDataBase().then(productos => console.log(productos));
     }, [category]);
 
 

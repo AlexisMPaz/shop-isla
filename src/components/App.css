@@ -70,7 +70,7 @@
 
 .chaosMode {
     background-color: black;
-    background: url(../../public/img/chaos.jpeg) no-repeat center center fixed;
+    background: url(https://firebasestorage.googleapis.com/v0/b/react-shop-isla.appspot.com/o/chaos.jpeg?alt=media&token=8a563ecd-5c12-4fc8-b01c-1d07c8a3a647) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
