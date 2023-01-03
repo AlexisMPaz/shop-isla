@@ -1,8 +1,12 @@
+// Routes
 import { Link } from "react-router-dom";
+
+// Components
 import CartWidget from "../CartWidget/CartWidget";
 import Categories from "./Categories/Categories";
 import ButtonDarkMode from "./ButtonDarkMode/ButtonDarkMode";
 
+// Context
 import { useChaosModeContext } from "../../context/ChaosModeContext";
 
 

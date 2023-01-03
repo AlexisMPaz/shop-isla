@@ -1,6 +1,11 @@
+// React
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// Style
 import './index.css';
+
+// Components
 import App from './components/App';
 
 // Context

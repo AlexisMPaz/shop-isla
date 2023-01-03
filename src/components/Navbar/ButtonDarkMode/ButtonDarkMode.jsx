@@ -1,3 +1,4 @@
+// Context
 import { useChaosModeContext } from "../../../context/ChaosModeContext";
 
 const ButtonDarkMode = () => {

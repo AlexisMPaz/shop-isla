@@ -1,13 +1,14 @@
 import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
 
+// Context
 import { useChaosModeContext } from "../../context/ChaosModeContext";
 import { useCartContext } from "../../context/CartContext";
 
 const ItemDetail = ({ item }) => {
 
     const {chaosMode} = useChaosModeContext();
-    const {addItem} = useCartContext();
+    const {addItem, cart} = useCartContext();
 
     const onAdd = (contador) => {
         addItem(item, contador);

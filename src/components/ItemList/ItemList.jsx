@@ -1,5 +1,6 @@
+// Components
 import Item from "../Item/Item";
-//Modificar mi array de Objetos
+
 const ItemList = ({productList}) => {
     return (
         <div className="row">

@@ -1,5 +1,10 @@
-import "./CartWidget.css"
+// Style
+import "./CartWidget.css";
+
+// Routes
 import { Link } from "react-router-dom";
+
+// Context
 import { useCartContext } from "../../context/CartContext";
 
 const CartWidget = () => {

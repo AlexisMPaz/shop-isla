@@ -1,7 +1,9 @@
 import { useContext, createContext, useState } from "react";
 
-const CartContext = createContext();
+// Toastify
+import { toast } from "react-toastify";
 
+const CartContext = createContext();
 export const useCartContext = () => useContext(CartContext);
 
 export const CartProvider = (props) => {
@@ -25,14 +27,42 @@ export const CartProvider = (props) => {
 
             setCart([...cart, newProduct]);
         }
+        
+        toast.success('Artefacto agregado al carrito.', {
+            position: "bottom-right",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
     }
 
     const emptyCart = () => {
         setCart([]);
+        toast.info('El carrito ha sido vaciado.', {
+            position: "bottom-right",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
     }
 
     const removeItem = (id) => {
         setCart(cart.filter(prod => prod.id !== id));
+        toast.info('El Artefacto ha sido removido del carrito.', {
+            position: "bottom-right",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
     }
 
     const getItemQuantity = ()=> {

@@ -1,4 +1,7 @@
+// Routes
 import { Routes, Route } from "react-router-dom";
+
+// Components
 import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
 import Cart from "../Cart/Cart";

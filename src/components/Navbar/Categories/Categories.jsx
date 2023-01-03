@@ -1,4 +1,6 @@
+// Routes
 import { Link } from "react-router-dom";
+
 const Categories = () => {
     return (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">

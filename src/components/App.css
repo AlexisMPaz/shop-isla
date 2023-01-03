@@ -46,8 +46,18 @@
     color: rgb(211, 172, 43);
 }
 
+.logoFooter {
+    transition: 300ms ease-in-out;
+}
+
+.logoFooter:hover {
+    transform: scale(1.1);
+}
+
+
 .artifactCard {
     background-color: rgba(20, 31, 49, 0.7);
+    min-height: 280px;
 }
 
 /* Default Style */
@@ -64,6 +74,12 @@
 .navContainer {
     background-color: rgba(20, 31, 49, 0.7);
     padding: 1rem;
+}
+
+.footerContainer {
+    border-radius: 15px;
+    background-color: rgb(20, 31, 49);
+    padding: 2rem;
 }
 
 /* Chaos Style */
@@ -88,6 +104,12 @@
 .navContainerChaos {
     background-color: rgba(67, 0, 0, 0.7);
     padding: 1rem;
+}
+
+.footerContainerChaos {
+    border-radius: 15px;
+    background-color: rgba(67, 0, 0, 1);
+    padding: 2rem;
 }
 
 

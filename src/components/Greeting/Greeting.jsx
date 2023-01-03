@@ -1,4 +1,4 @@
-
+// Context
 import { useChaosModeContext } from "../../context/ChaosModeContext";
 
 const Greeting = ({inCategory}) => {

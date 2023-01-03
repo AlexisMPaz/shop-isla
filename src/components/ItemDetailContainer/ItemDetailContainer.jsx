@@ -1,7 +1,11 @@
+// React
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import consultBDD from "../../assets/functions";
+// FireBase - DataBase
+import { getProduct } from "../../assets/firebase";
+
+// Components
 import ItemDetail from "../ItemDetail/ItemDetail";
 
 const ItemDetailContainer = () => {
@@ -9,11 +13,8 @@ const ItemDetailContainer = () => {
     const {id} = useParams();
 
     useEffect(() => {
-        consultBDD("../json/products.json").then(products => {
-            const prod = products.find(product => product.id === parseInt(id));
-            setProduct(prod);
-        })
-    }, []);
+        getProduct(id).then(prod => setProduct(prod));
+    }, [])
 
     return (
         <>
