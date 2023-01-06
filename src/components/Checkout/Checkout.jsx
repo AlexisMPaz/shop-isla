@@ -91,20 +91,18 @@ const Checkout = () => {
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Nombre y Apellido</label>
-                    <input type="text" className="form-control" name="name" required />
+                    <input type="text" className="form-control" name="name" pattern="[a-zA-Z0-9 ]+" required />
                 </div>
 
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" name="email" required />
+                    <input type="email" className="form-control" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
                 </div>
 
                 <div className="mb-3">
                     <label htmlFor="email2" className="form-label">Repetir Email</label>
-                    <input type="email" className="form-control" name="email2" required />
+                    <input type="email" className="form-control" name="email2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
                 </div>
-
-                {/* AGREGAR VALIDACION DEL EMAIL */}
 
                 <div className="mb-3">
                     <label htmlFor="dni" className="form-label">DNI</label>
